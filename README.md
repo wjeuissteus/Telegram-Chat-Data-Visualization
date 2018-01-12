@@ -1,4 +1,4 @@
-# Telegram-Chat-Data-Visualisation
+# Telegram-Chat-Data-Visualization
 ##### Tool for Telegram-Chat-Data-Visualization 
 
 
@@ -34,7 +34,7 @@ _____________________________________________________
  
  _____________________________________________________
  
- These mages below displaying my first visualization. One of my groups where we substitute our favourite songs on youtube. A several images are made with the Source Parameter "text" where you can notice a lot of youtube-links. 
+ These images below displaying my first visualization. One of my groups where we substitute our favourite songs on youtube. A several images are made with the Source Parameter "text" where you can notice a lot of youtube-links. 
 
  
 
