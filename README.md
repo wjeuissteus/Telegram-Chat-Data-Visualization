@@ -12,11 +12,11 @@ _____________________________________________________
  2. convert `database.sqlite` to json
  using `createJSON.js` and the command `node createJSON.js`
 
- fill in the `source_id=''` of your choosen telegram group, to find your source ID have a look in your database (tool for that [SqliteBrowser] (http://sqlitebrowser.org))
+ 2.1 fill in the `source_id=''` of your choosen telegram group, to find your source ID have a look in your database (tool for that [SqliteBrowser] (http://sqlitebrowser.org))
 
- 3. convert json to csv using and script or easily [Convert CSV](http://www.convertcsv.com/json-to-csv.htm)
+ 3. convert json to csv using a script or easily [Convert CSV](http://www.convertcsv.com/json-to-csv.htm)
 
- 4. use [gephi](https://github.com/gephi/gephi) for visualization, import your CSV File in your Data Laboratory. And Start playing arround with different Layouts and Parameters.
+ 4. use [gephi](https://github.com/gephi/gephi) for visualization, import your CSV File in your `Data Laboratory`, and start playing arround with different layouts and parameters
 _____________________________________________________
  
  I did released a example json and csv file, with that you should be able to check how it could look like.
