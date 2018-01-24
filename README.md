@@ -10,7 +10,7 @@ _____________________________________________________
  
 
  2. convert `database.sqlite` to json
- using `createJSON.js` and the command `node createJSON.js`
+ using `createJSON.js` and the command `node createJSON.js`, for this
  fill in the `source_id=''` of your choosen telegram group, to find your source ID have a look in your database (tool for that
  [SqliteBrowser] (http://sqlitebrowser.org))
 
