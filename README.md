@@ -17,7 +17,7 @@ _____________________________________________________
  3. use [gephi](https://github.com/gephi/gephi) for visualization, import your CSV File in your `Data Laboratory`, and start playing arround with different layouts and parameters
 _____________________________________________________
  
- I did released a example json and csv file, with that you should be able to check how it could look like.
+ I did released a example csv file, with that you should be able to check how it could look like.
  
  
  
