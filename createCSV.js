@@ -12,7 +12,7 @@ db.serialize(function() {
     		console.log(err);
     		return;
     	} else {
-    		addRowToDataJSON(rows);
+    		addRowToDataCSV(rows);
     	}
 	});
 })
@@ -21,18 +21,19 @@ db.serialize(function() {
  * adds row to local var, process the whole db with the new row and writes it to a file
  * this is awful code style!
  */
-function addRowToDataJSON(rows) {
+function addRowToDataCSV(rows) {
 	console.log('This are our results: ', rows);
+	var csvResult="";
+	rows = sortRows(rows);
 	for (let row of rows) {
+		csvResult=`${csvResult}${row.time},${row.text},${row.username},${row.first_name},${row.last_name}\n`
 		// single row stored in row: username accesable by using: row.username and so on
 		// explore the row object by using console.log(row)
 		// it is possible to change the content of a row
 	}
 	//sort our rows by time and 
-	rows = sortRows(rows);
 	//write rows to file
-	var json = JSON.stringify(rows, null, 4);
-	fs.writeFile('example.json', json, 'utf8', function(err){
+	fs.writeFile('example.csv', csvResult, 'utf8', function(err){
 	  if(err) console.log(err); 
 	});
 }
