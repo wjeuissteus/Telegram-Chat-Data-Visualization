@@ -6,7 +6,7 @@ _____________________________________________________
 
 
 
- 1. backup your telegram chat using [telegram-history-dump](https://github.com/tvdstaaij/telegram-history-dump)
+ 1. backup your telegram chat using the Java tool [telegram_backup](https://github.com/fabianonline/telegram_backup)
  
 
  2. convert `database.sqlite` to csv
